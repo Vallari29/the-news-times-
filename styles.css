@@ -1,0 +1,45 @@
+body{
+    padding: 0px 40px 0px 40px; 
+
+}
+
+.main-brand {
+    color:black;
+    text-align:center;
+    font-size:50px;
+    font-family: 'Great Vibes', cursive;
+    font-weight:normal;
+    margin-top:65px;
+    margin-bottom:65px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Old Standard TT', serif; 
+    font-weight: 400;
+    font-style: italic;
+}
+ /**
+ @reference - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+ */
+.row-1 {
+    display: flex; /* or inline-flex */
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    
+}
+
+.story{
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    padding: 20px 10px;
+    flex: 1;
+}
+
+.story-highlight{
+    flex: 2;
+}
+
+.story-highlight img {
+    width: 100%;
+}
