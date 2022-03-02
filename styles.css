@@ -43,3 +43,7 @@ h2{
 .story-highlight img {
     width: 100%;
 }
+
+.content {
+    display: flex;
+}
