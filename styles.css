@@ -44,6 +44,51 @@ h2{
     width: 100%;
 }
 
-.content {
+.row-2{
     display: flex;
+    border-bottom: 2px solid black;
+    margin-bottom: 65px;
+}
+
+.topics{
+    display: flex;
+    flex: 3.1;
+    border-right: 1px solid grey;
+    align-items: stretch;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-between;
+}
+
+.topic{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.topic h2{
+    text-align: left;
+    font-weight: bold;
+}
+
+.bg-yellow{
+    background-color: #fdebaf;
+}
+
+.bg-cyan{
+    background-color: #9aeaeb;
+}
+
+.bg-green{
+    background-color: #82ebc7;
+}
+
+.bg-indigo{
+    background-color: #81b9f9;
+}
+
+.bg-purple{
+    background-color: #9f9df8;
 }
